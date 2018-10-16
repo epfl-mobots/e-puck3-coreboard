@@ -1,7 +1,0 @@
-Camera=DCMI_D[0..7],VSync,HSync,PixClk,MClk,{I2C:I2C}
-CAN=TX,RX
-I2C=SDA,SCL
-SPI=MISO,SCK,MOSI
-Stepper-Motor=D,C,A,B
-SW=CLK,DIO
-USB=DP,DM
