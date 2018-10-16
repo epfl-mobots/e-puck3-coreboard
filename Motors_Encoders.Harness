@@ -1,0 +1,2 @@
+SPI=MOSI,SCK,MISO
+Stepper-Motor=A,B,C,D

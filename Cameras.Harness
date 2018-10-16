@@ -1,0 +1,2 @@
+Camera=DCMI_D[0..7],PixClk,VSync,{I2C:I2C},HSync,MClk
+I2C=SDA,SCL
