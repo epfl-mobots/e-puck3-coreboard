@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JDHXYLOI
 
 [Document5]
 DocumentPath=Schlib.SchLib
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BUQMRISH
 
 [Parameter1]
 Name=Address1
@@ -128,7 +128,7 @@ Value=EFI & DBR
 
 [Parameter2]
 Name=Organization_Name
-Value=Laboratoire de Systèmes Robotiques
+Value=Laboratoire de Systï¿½mes Robotiques
 
 [Parameter3]
 Name=Project_Name
