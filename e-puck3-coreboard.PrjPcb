@@ -208,23 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=WMKPGOSP
 
 [Document11]
-DocumentPath=Sensors.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document12]
 DocumentPath=Sensors + CAN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=Wireless.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RFLXVWDW
 
-[Document14]
+[Document13]
 DocumentPath=Wireless.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -276,20 +259,20 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Project_Revision
-Value=0.1
+Name=Address1
+Value=EFI & DBR
 
 [Parameter2]
-Name=Project_Name
-Value=e-puck3 Core board
-
-[Parameter3]
 Name=Organization_Name
 Value=Laboratoire de Syst�mes Robotiques
 
+[Parameter3]
+Name=Project_Name
+Value=e-puck3 Core board
+
 [Parameter4]
-Name=Address1
-Value=EFI & DBR
+Name=Project_Revision
+Value=0.1
 
 [Configuration1]
 Name=Default Configuration
