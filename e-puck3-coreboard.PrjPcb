@@ -1,6 +1,6 @@
 [Design]
 Version=1.0
-HierarchyMode=1
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -242,20 +242,20 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Address1
-Value=EFI & DBR
+Name=Project_Revision
+Value=0.1
 
 [Parameter2]
-Name=Organization_Name
-Value=Laboratoire de Syst�mes Robotiques
-
-[Parameter3]
 Name=Project_Name
 Value=e-puck3 Core board
 
+[Parameter3]
+Name=Organization_Name
+Value=Laboratoire de Syst�mes Robotiques
+
 [Parameter4]
-Name=Project_Revision
-Value=0.1
+Name=Address1
+Value=EFI & DBR
 
 [Configuration1]
 Name=Default Configuration
