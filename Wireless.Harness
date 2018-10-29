@@ -1,0 +1,3 @@
+RGB=R,G,B
+SPI 4-wire=MISO,MOSI,SCK,CS
+UART=RX (uC),TX (uC)
