@@ -1,4 +1,5 @@
-CAN=TX,RX
+Brushless motor=Phase1_P,Phase1_N,Phase2_P,Phase2_N,Phase3_P,Phase3_N,Phase1_sense,Phase2_sense,Phase3_sense,Neutral_sense
+CAN=RX,TX
 I2C=SCL,SDA
 RGB=B,G,R
 SWD=SWCLK,SWDIO
