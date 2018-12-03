@@ -446,20 +446,16 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Address1
-Value=EFI & DBR
+Name=Project_Revision
+Value=0.1
 
 [Parameter2]
-Name=Organization_Name
-Value=Laboratoire de Systï¿½mes Robotiques
-
-[Parameter3]
 Name=Project_Name
 Value=e-puck3 Core board
 
-[Parameter4]
-Name=Project_Revision
-Value=0.1
+[Parameter3]
+Name=Organization_Name
+Value=Laboratoire de Systèmes Robotiques
 
 [Configuration1]
 Name=Default Configuration
