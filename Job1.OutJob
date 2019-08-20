@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Job1.OutJob
 Description=
-TargetOutputMedium=Copy of Full project document
+TargetOutputMedium=ST BOM document
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Full project document
 OutputMedium1_Type=Publish
@@ -31,8 +31,10 @@ OutputMedium3=ACI document
 OutputMedium3_Type=Publish
 OutputMedium4=Assembly document
 OutputMedium4_Type=Publish
-OutputMedium5=Copy of Full project document
+OutputMedium5=ST project document
 OutputMedium5_Type=Publish
+OutputMedium6=ST BOM document
+OutputMedium6_Type=GeneratedFiles
 OutputType1=PCB Print
 OutputName1=PCB infos
 OutputCategory1=Documentation
@@ -44,6 +46,7 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -120,16 +123,17 @@ PcbPrintPreferences1=
 OutputType2=Schematic Print
 OutputName2=Schematic
 OutputCategory2=Documentation
-OutputDocumentPath2=Sheet1.SchDoc
+OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=e-puck2-EPFL
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=1
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=1
 OutputEnabled2_OutputMedium5=1
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.09|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=Record=SchPrintView|BooleanThing=False
 OutputType3=Gerber
@@ -143,6 +147,7 @@ OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973834~1,16777217~1,16842751~1,16973835~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -157,6 +162,7 @@ OutputEnabled4_OutputMedium2=2
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=629921|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
@@ -165,20 +171,21 @@ OutputName5=Bill of Materials
 OutputCategory5=Report
 OutputDocumentPath5=
 OutputVariantName5=e-puck2_EPFL
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=3
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=3
 OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=1
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=ColumnNameFormat
 Configuration5_Item1=CaptionAsName
-Configuration5_Name2=Filter
-Configuration5_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A2200000001000000000003000000546F70050000004C6179657201120300000054006F0070000000
+Configuration5_Name2=FilterString_Base
+Configuration5_Item2=[Layer] = 'Top'
 Configuration5_Name3=General
-Configuration5_Item3=OpenExported=True|AddToProject=True|ForceFit=True|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=Templates\GCTronic&EPFLMobots_A4-BOM-1-TopBot.xls|BatchMode=5|FormWidth=2586|FormHeight=989|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration5_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\lsro1altium\Templates\LSRO1-BOM-2-TopBot.xls|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2017|FormHeight=989|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration5_Name4=GroupOrder
 Configuration5_Item4=Layer=True|Comment=True
 Configuration5_Name5=PCBDocument
@@ -200,6 +207,7 @@ OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=0
 OutputDefault6=0
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
@@ -224,6 +232,7 @@ OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
 OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
@@ -238,6 +247,7 @@ OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=SimpleBOMView|SimpleBOMMode=0
@@ -252,6 +262,7 @@ OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=0
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=NetlistVersion=0|Record=SinglePinNetsView
@@ -266,6 +277,7 @@ OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
 OutputEnabled10_OutputMedium5=0
+OutputEnabled10_OutputMedium6=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
@@ -302,6 +314,7 @@ OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=2
 OutputEnabled11_OutputMedium5=0
+OutputEnabled11_OutputMedium6=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.90|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration11_Name1=OutputConfigurationParameter1
@@ -338,6 +351,7 @@ OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
 OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
+OutputEnabled12_OutputMedium6=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=AddToAllPlots_Always=True|AddToAllPlots_Annotations=False|AddToAllPlots_BotBody=False|AddToAllPlots_BotCourtyard=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_ProE importation=False|AddToAllPlots_TopBody=False|AddToAllPlots_TopCourtyard=False|AddToAllPlots_V-Scoring=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=61|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=False|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=False|PlotTopSolderPlot=True|Record=ODBView
@@ -352,11 +366,12 @@ OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath1=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck2_board\.\e-puck2_SCH-IMP-BOM-PCB.PDF
+OutputFilePath1=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\e-puck2-doc.PDF
 ReleaseManaged1=0
 OutputBasePath1=.\
 OutputPathMedia1=
@@ -450,15 +465,15 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\dburnier\Downloads\AD-TestPrintModulePort\e-puck2-doc.PDF
+OutputFilePath5=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\ST-Collaboration\e-puck3-coreboard_doc.PDF
 ReleaseManaged5=0
-OutputBasePath5=C:\Users\dburnier\Downloads\AD-TestPrintModulePort\
-OutputPathMedia5=
-OutputPathMediaValue5=
+OutputBasePath5=.\
+OutputPathMedia5=ST-Collaboration
+OutputPathMediaValue5=ST-Collaboration
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
-OutputFileName5=e-puck2-doc.PDF
+OutputFileName5=e-puck3-coreboard_doc.PDF
 OutputFileNameMulti5=
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
@@ -477,9 +492,22 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
+OutputFilePath6=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\ST-Collaboration\
+ReleaseManaged6=0
+OutputBasePath6=.\
+OutputPathMedia6=ST-Collaboration
+OutputPathMediaValue6=ST-Collaboration
+OutputPathOutputer6=
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6=
+UseOutputNameForMulti6=1
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck2_board\.\e-puck2_SCH-IMP-BOM-PCB.PDF
+RelativeOutputPath1=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\e-puck2-doc.PDF
 OpenOutputs1=1
 RelativeOutputPath2=.\ACI\
 OpenOutputs2=0
@@ -495,6 +523,16 @@ RelativeOutputPath3=.\ACI\Your_ProjectName.PDF
 OpenOutputs3=1
 RelativeOutputPath4=.\Your_ProjectName-SCH-IMP-BOM.PDF
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\dburnier\Downloads\AD-TestPrintModulePort\e-puck2-doc.PDF
+RelativeOutputPath5=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\ST-Collaboration\e-puck3-coreboard_doc.PDF
 OpenOutputs5=1
+RelativeOutputPath6=C:\Users\dburnier\Documents\EPFL-Mobots\Projects\e-puck-II\e-puck3-coreboard\.\ST-Collaboration\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
