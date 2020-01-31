@@ -513,6 +513,17 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=1AEA6102-92EE-402F-9D75-F9112373B395
+Description=All components
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=J1|UniqueId=\EWXVXXHY\VQTBPMSX|Kind=1|AlternatePart= 
+Variation2=Designator=P1|UniqueId=\YMOIRNJH\FMQJDILT|Kind=1|AlternatePart= 
+Variation3=Designator=P6|UniqueId=\KHNCJNQL\GAPZLLCN|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX10
 DItemRevisionGUID=
