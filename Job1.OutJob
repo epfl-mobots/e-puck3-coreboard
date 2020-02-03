@@ -111,13 +111,15 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
 Configuration6_Name2=General
-Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1662|FormHeight=1066|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1662|FormHeight=1066|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration6_Name3=GroupOrder
-Configuration6_Item3=Comment=True|Footprint=True
-Configuration6_Name4=VisibleOrder
-Configuration6_Item4=Quantity=78|Designator=120|Comment=198|Description=194|Package / Case=165|Type=100
-Configuration6_Name5=VisibleOrder_Flat
-Configuration6_Item5=Quantity=78|Designator=120|Comment=198|Description=194|Package / Case=165|Type=100
+Configuration6_Item3=Comment=True
+Configuration6_Name4=SortOrder
+Configuration6_Item4=Comment=Up
+Configuration6_Name5=VisibleOrder
+Configuration6_Item5=Quantity=78|Designator=244|Comment=198|Description=194|Package / Case=165|Type=100
+Configuration6_Name6=VisibleOrder_Flat
+Configuration6_Item6=Quantity=78|Designator=244|Comment=198|Description=194|Package / Case=165|Type=100
 
 [PublishSettings]
 OutputFilePath1=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-doc.PDF
