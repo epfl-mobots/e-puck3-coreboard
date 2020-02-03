@@ -513,203 +513,140 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[ProjectVariant1]
-UniqueID=1AEA6102-92EE-402F-9D75-F9112373B395
-Description=All components
-AllowFabrication=0
-ParameterCount=0
-VariationCount=3
-Variation1=Designator=J1|UniqueId=\EWXVXXHY\VQTBPMSX|Kind=1|AlternatePart= 
-Variation2=Designator=P1|UniqueId=\YMOIRNJH\FMQJDILT|Kind=1|AlternatePart= 
-Variation3=Designator=P6|UniqueId=\KHNCJNQL\GAPZLLCN|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
 [GeneratedDocument1]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX10
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX10
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX10
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX11
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX11
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX12
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX11
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX13
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX12
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX14
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX12
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX15
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX13
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX16
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX13
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX17
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX14
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX18
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX14
+DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX15
+DocumentPath=Output\NC Drill\e-puck3-coreboard-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX15
+DocumentPath=Output\NC Drill\e-puck3-coreboard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX16
+DocumentPath=Output\Gerber\e-puck3-coreboard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX16
+DocumentPath=Output\Gerber\e-puck3-coreboard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX17
+DocumentPath=Output\Gerber\e-puck3-coreboard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX17
+DocumentPath=Output\Gerber\e-puck3-coreboard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TX18
+DocumentPath=Output\Gerber\e-puck3-coreboard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TX18
+DocumentPath=Output\Gerber\e-puck3-coreboard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-RoundHoles.TXT
+DocumentPath=Output\Gerber\e-puck3-coreboard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-RoundHoles.TXT
+DocumentPath=Output\Gerber\e-puck3-coreboard.G7
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard-SlotHoles.TXT
+DocumentPath=Output\Gerber\e-puck3-coreboard.G8
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard-SlotHoles.TXT
+DocumentPath=Output\Gerber\e-puck3-coreboard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard.DRR
+DocumentPath=Output\Gerber\e-puck3-coreboard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard.DRR
+DocumentPath=Output\Gerber\e-puck3-coreboard.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.EXTREP
+DocumentPath=Output\Gerber\e-puck3-coreboard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G1
+DocumentPath=Output\Gerber\e-puck3-coreboard.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G2
+DocumentPath=Output\Gerber\e-puck3-coreboard.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G3
+DocumentPath=Output\Gerber\e-puck3-coreboard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G4
+DocumentPath=Output\Gerber\e-puck3-coreboard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G5
+DocumentPath=Output\Gerber\e-puck3-coreboard.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G6
+DocumentPath=Output\Gerber\e-puck3-coreboard.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G7
+DocumentPath=Output\NC Drill\e-puck3-coreboard.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.G8
+DocumentPath=Output\Gerber\e-puck3-coreboard.REP
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=.\Output\NC Drill\e-puck3-coreboard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for e-puck3-coreboard\e-puck3-coreboard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=.\Output\Gerber\e-puck3-coreboard.RUL
+DocumentPath=Output\Gerber\e-puck3-coreboard.RUL
 DItemRevisionGUID=
 
 [Parameter1]
