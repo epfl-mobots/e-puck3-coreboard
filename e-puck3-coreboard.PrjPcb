@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for e-puck3-coreboard
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -513,6 +513,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document29]
+DocumentPath=e-puck3-coreboard.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Output\NC Drill\e-puck3-coreboard-RoundHoles.TX10
 DItemRevisionGUID=
@@ -650,16 +667,16 @@ DocumentPath=Output\Gerber\e-puck3-coreboard.RUL
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Organization_Name
-Value=Laboratoire BIOROB - Mobots group
+Name=Project_Revision
+Value=1.0
 
 [Parameter2]
 Name=Project_Name
-Value=e-puck3 Core board
+Value=e-puck3 Coreboard
 
 [Parameter3]
-Name=Project_Revision
-Value=0.1
+Name=Organization_Name
+Value=Laboratoire BIOROB - Mobots group
 
 [Configuration1]
 Name=Default Configuration
@@ -822,7 +839,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for e-puck3-coreboard
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
