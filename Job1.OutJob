@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job1.OutJob
+Name=
 Description=
 TargetOutputMedium=PCBWay assembly files
 VariantName=[No Variations]
@@ -135,7 +135,7 @@ Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=True|IncludeCoverLayer=True|SkipFreeBodies=True
 
 [PublishSettings]
-OutputFilePath1=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-Sch.PDF
+OutputFilePath1=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-SCH.PDF
 ReleaseManaged1=0
 OutputBasePath1=.\
 OutputPathMedia1=Output
@@ -143,7 +143,7 @@ OutputPathMediaValue1=Output
 OutputPathOutputer1=[Output Type]
 OutputPathOutputerPrefix1=
 OutputPathOutputerValue1=
-OutputFileName1=e-puck2-SCH.PDF
+OutputFileName1=e-puck3-SCH.PDF
 OutputFileNameMulti1=
 UseOutputNameForMulti1=0
 OutputFileNameSpecial1=
@@ -170,7 +170,7 @@ OutputPathMediaValue2=Output
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=e-puck2-DOC.PDF
+OutputFileName2=e-puck3-DOC.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -217,7 +217,7 @@ OutputFileNameSpecial4=
 OpenOutput4=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-Sch.PDF
+RelativeOutputPath1=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-SCH.PDF
 OpenOutputs1=1
 RelativeOutputPath2=Z:\Documents\SmartGit\e-puck3-coreboard\.\Output\e-puck2-DOC.PDF
 OpenOutputs2=1
