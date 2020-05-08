@@ -3,3 +3,7 @@
 **/Output/
 **/Project Logs for*/
 *.PrjPCBStructure
+3d_model
+Documentation
+Output_Inch
+Output_Metric
