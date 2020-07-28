@@ -548,16 +548,16 @@ GenerateClassCluster=0
 DocumentUniqueId=FVKNGUUM
 
 [Parameter1]
-Name=Organization_Name
-Value=Laboratoire BIOROB - Mobots group
+Name=Project_Revision
+Value=1.1
 
 [Parameter2]
 Name=Project_Name
 Value=e-puck3 Coreboard
 
 [Parameter3]
-Name=Project_Revision
-Value=1.0
+Name=Organization_Name
+Value=Laboratoire BIOROB - Mobots group
 
 [Configuration1]
 Name=Default Configuration
